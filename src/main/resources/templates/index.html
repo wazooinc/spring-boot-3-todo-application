@@ -23,7 +23,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="item : ${todoItems}">
+        <tr th:each="item : ${todoItems}" th:class="${item.isComplete} ? 'alert alert-success' : 'alert alert-warning'">
             <td>
                 <div class="btn btn-group-sm" role="group">
                     <a class="btn btn-info" th:href="@{/edit/{id}(id=${item.id})}">
