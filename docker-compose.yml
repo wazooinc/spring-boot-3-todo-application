@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: wazoo/web-server:v1
+    image: wazoo/web-server:v2
     build: .
     ports:
       - "3000:8080"
