@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: wazoo/web-server:v3
+    build: .
+    ports:
+      - "3000:8080"
