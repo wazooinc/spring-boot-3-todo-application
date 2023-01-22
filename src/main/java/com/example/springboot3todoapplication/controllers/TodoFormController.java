@@ -2,7 +2,6 @@ package com.example.springboot3todoapplication.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.springboot3todoapplication.services.TodoItemService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
 import com.example.springboot3todoapplication.models.TodoItem;
