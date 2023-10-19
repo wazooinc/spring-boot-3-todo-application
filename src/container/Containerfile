@@ -11,7 +11,7 @@ RUN java -Djarmode=layertools -jar ./app.jar extract
 
 ####
 FROM registry.access.redhat.com/ubi9/openjdk-17:1.16
-ARG APP_NAME=hello-spring-boot
+ARG APP_NAME=todo-application
 ARG APP_VERSION=0.0.1-SNAPSHOT
 ARG GIT_COMMIT_SHA
 ARG GIT_COMMIT_BRANCH=develop
