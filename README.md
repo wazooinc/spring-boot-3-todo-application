@@ -1,9 +1,9 @@
-# Spring Boot 3 Todo Application
+# Todo Application with Spring Boot 3.1.x
 
 ![spring boot todo application](./screenshot.png)
 
 This is an ENTIRE application for Java Spring Boot built using:
-- Spring Boot 3.0.0
+- Spring Boot 3.1.4
 - Spring Data JPA
 - H2 Database
 - Thymeleaf
