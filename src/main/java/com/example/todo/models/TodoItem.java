@@ -1,4 +1,4 @@
-package com.example.springboot3todoapplication.models;
+package com.example.todo.models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

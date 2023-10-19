@@ -1,7 +1,7 @@
-package com.example.springboot3todoapplication.controllers;
+package com.example.todo.controllers;
 
 import org.springframework.stereotype.Controller;
-import com.example.springboot3todoapplication.services.TodoItemService;
+import com.example.todo.services.TodoItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;

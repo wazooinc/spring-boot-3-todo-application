@@ -1,10 +1,10 @@
-package com.example.springboot3todoapplication.controllers;
+package com.example.todo.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import com.example.springboot3todoapplication.services.TodoItemService;
+import com.example.todo.services.TodoItemService;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
-import com.example.springboot3todoapplication.models.TodoItem;
+import com.example.todo.models.TodoItem;
 import jakarta.validation.Valid;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;

@@ -1,8 +1,7 @@
-package com.example.springboot3todoapplication.services;
+package com.example.todo.services;
 
-import com.example.springboot3todoapplication.models.TodoItem;
-import com.example.springboot3todoapplication.repositories.TodoItemRepository;
-import jakarta.validation.constraints.NotBlank;
+import com.example.todo.models.TodoItem;
+import com.example.todo.repositories.TodoItemRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
